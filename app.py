@@ -77,7 +77,7 @@ def home():
         st.write(''' 1. Program level  : this graph is better for seeing trend of particular branch ''')
         st.write(''' 2. Institute Level : this graph is better for seeing trend of Institute as a whole.''')
         st.write('''* Input Data and click submit''')
-        st.write( '''* Genereal Trends:''')
+        st.write( '''* General Trends:''')
         st.write('''1. If the graph is going upwards , cutoff most likely will increase''')
         st.write('''2. If the graph is going downwards , cutoff most likely will decrease''')
         st.write('''3. Stagnated Graph/ no trend , cutoff more likely nearly to remain same unless some event''')
