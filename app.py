@@ -39,7 +39,7 @@ def load_lottiefile(filepath: str):
 def home():
     col1,col2 = st.columns([2,1])
     col1.title("Welcome to Jee RankSage")
-    col1.markdown("[![GitHub stars](https://img.shields.io/github/stars/your-username/your-repository.svg?style=social)](https://github.com/your-username/your-repository)")
+    col1.markdown("[![GitHub stars](https://img.shields.io/github/stars/KaiserKadu/Jee-RankSage.svg?style=social)](https://github.com/KaiserKadu/Jee-RankSage)")
     with col2:
         lottie = load_lottiefile("img/started.json")
         st_lottie(
