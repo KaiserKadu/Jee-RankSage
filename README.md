@@ -7,5 +7,6 @@
 ![image](https://github.com/KaiserKadu/Jee-RankSage/assets/89192428/71ae89a6-50ba-4946-9a7d-2ec07febae8d)
 ---
 To - do
+- [ ] Add 2021 data
 - [ ] Add Counsellor and Search
 - [ ] Integrate Machine Learning
