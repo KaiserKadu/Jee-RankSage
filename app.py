@@ -90,7 +90,7 @@ def exproler():
     st.divider()
     st.subheader("Basic Setup")
     with st.expander(":gear:",expanded=True):
-        year = st.select_slider("Year",[2016,2017,2018,2019,2020,2022],value=2022)
+        year = st.select_slider("Year",[2016,2017,2018,2019,2020,2021,2022],value=2022)
         exam = st.selectbox("Exam",["Jee Mains","Jee Advanced"],index=0)
     # done = st.button("Done",on_click=setdf(year,exam))
     # st.write("Click ⬆ this button again to change Year or Exam")

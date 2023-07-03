@@ -35,6 +35,12 @@ def get_df(year,exam):
     elif(year == 2020 and exam == "Jee Advanced"):
         df = pd.read_csv('data/2020/Adv.csv')
         return df  
+    elif(year == 2021 and exam == "Jee Mains"):
+        df = pd.read_csv('data/2021/Mains.csv')
+        return df  
+    elif(year == 2021 and exam == "Jee Advanced"):
+        df = pd.read_csv('data/2021/Adv.csv')
+        return df  
     elif(year == 2022 and exam == "Jee Mains"):
         df = pd.read_csv('data/2022/Mains.csv')
         return df  
